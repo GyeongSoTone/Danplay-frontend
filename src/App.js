@@ -5,10 +5,11 @@ import Header from './components/common/header/Header'
 import Footer from './components/common/footer/Footer'
 import ROUTES from './constants/routes'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import './App.scss'
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
         <Header />
         <Routes>
