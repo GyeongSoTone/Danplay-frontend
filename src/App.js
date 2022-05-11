@@ -8,6 +8,8 @@ import './App.scss'
 import Home from './pages/Home'
 import Login from './pages/Login'
 import MyPage from './pages/MyPage'
+import Term from './pages/Term'
+import Privacy from './pages/Privacy'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path={ROUTES.ROOT} element={<Home />}></Route>
           <Route path={ROUTES.LOGIN} element={<Login />}></Route>
           <Route path={ROUTES.MYPAGE} element={<MyPage />}></Route>
+          <Route path={ROUTES.TERM} element={<Term />}></Route>
+          <Route path={ROUTES.PRIVACY} element={<Privacy />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>
