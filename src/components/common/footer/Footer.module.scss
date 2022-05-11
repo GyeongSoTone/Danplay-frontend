@@ -1,0 +1,44 @@
+@import '../pallete';
+
+.footer {
+    background-color: $BACKGROUND_GRAY;
+
+    .container {
+        margin: 0 auto;
+        max-width: 1024px;
+
+        .content {
+            padding: 15px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .information {
+                span {
+                    color: $LIGHT_BLACK;
+                    font-size: 12px;
+                }
+
+                a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+                .email {
+                    margin-left: 100px;
+                }
+
+                .copyright {
+                    float: left;
+                    padding-top: 5px;
+                }
+            }
+
+            .logo {
+                width: 100px;
+                opacity: 50%;
+                filter: grayscale(100%);
+            }
+        }
+    }
+}
