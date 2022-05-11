@@ -14,7 +14,7 @@ const Header = () => {
   const userPage = isLogined ? ROUTES.MYPAGE : ROUTES.LOGIN
 
   return (
-    <div>
+    <div className={cx('header')}>
       <header className={cx('container')}>
         <Link to={ROUTES.ROOT}>
           <img
