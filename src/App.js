@@ -15,14 +15,18 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Header />
-        <Routes>
-          <Route path={ROUTES.ROOT} element={<Home />}></Route>
-          <Route path={ROUTES.LOGIN} element={<Login />}></Route>
-          <Route path={ROUTES.MYPAGE} element={<MyPage />}></Route>
-          <Route path={ROUTES.TERM} element={<Term />}></Route>
-          <Route path={ROUTES.PRIVACY} element={<Privacy />}></Route>
-        </Routes>
+        <div className="App-header-body">
+          <Header />
+          <div className="App-container">
+            <Routes>
+              <Route path={ROUTES.ROOT} element={<Home />}></Route>
+              <Route path={ROUTES.LOGIN} element={<Login />}></Route>
+              <Route path={ROUTES.MYPAGE} element={<MyPage />}></Route>
+              <Route path={ROUTES.TERM} element={<Term />}></Route>
+              <Route path={ROUTES.PRIVACY} element={<Privacy />}></Route>
+            </Routes>
+          </div>
+        </div>
         <Footer />
       </BrowserRouter>
     </div>
