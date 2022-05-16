@@ -9,6 +9,11 @@
 
         .content {
             padding: 15px 60px;
+
+            @media screen and (max-width: 650px) {
+                padding: 15px 10px;
+            }
+
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -17,6 +22,10 @@
                 span {
                     color: $LIGHT_BLACK;
                     font-size: 12px;
+
+                    @media screen and (max-width: 650px) {
+                        font-size: 8px;
+                    }
                 }
 
                 a {
@@ -26,6 +35,10 @@
 
                 .email {
                     margin-left: 100px;
+
+                    @media screen and (max-width: 650px) {
+                        margin-left: 5px;
+                    }
                 }
 
                 .copyright {
@@ -35,7 +48,7 @@
             }
 
             .logo {
-                width: 100px;
+                width: 13%;
                 opacity: 50%;
                 filter: grayscale(100%);
             }
