@@ -1,0 +1,28 @@
+@import '../pallete';
+
+.header {
+  margin: 0 auto;
+  max-width: 1024px;
+
+  .container {
+    padding: 15px 24px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo-main {
+      width: 100px;
+    }
+
+    .user-menu {
+      display: flex;
+      align-items: center;
+      :hover {
+        color: $POINT_BLUE;
+      }
+
+      .more-icon {
+        margin-left: 12px;
+      }
+    }
+  }
+}
