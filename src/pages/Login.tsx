@@ -2,17 +2,14 @@ import React from 'react'
 import styles from './Login.module.scss'
 import classNames from 'classnames/bind'
 import Input from '../components/common/Input'
+import LoginMessage from '../components/login/LoginMessage'
 
 const Login = () => {
   const cx = classNames.bind(styles)
 
   return (
     <div className={cx('container')}>
-      <div className={cx('login-message')}>
-        <b>DanPlay</b>에 로그인하고,
-        <br />
-        단국대 학우들과 스포츠 매치를 즐겨보세요!
-      </div>
+      <LoginMessage />
       <form className={cx('login-form')}>
         <div>
           <Input placeholder={'단국대학교 이메일'} type="text" />
