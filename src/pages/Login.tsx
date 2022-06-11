@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Login.module.scss'
 import classNames from 'classnames/bind'
-import Input from '../components/common/Input'
+import Input from '../components/login/Input'
 import LoginMessage from '../components/login/LoginMessage'
 
 const Login = () => {

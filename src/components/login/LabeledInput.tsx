@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './LabeledInput.module.scss'
 import classNames from 'classnames/bind'
-import Input from '../common/Input'
+import Input from './Input'
 
 type LabeledInputProps = {
   label: string
