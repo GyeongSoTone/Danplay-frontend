@@ -2,6 +2,7 @@ import React from 'react'
 import dayjs from 'dayjs'
 import styles from './MatchItem.module.scss'
 import classNames from 'classnames/bind'
+import MatchInfo from '../../models/match/MatchInfo'
 
 import PinDropOutlinedIcon from '@mui/icons-material/PinDropOutlined'
 import GroupOutlinedIcon from '@mui/icons-material/GroupOutlined'
@@ -10,7 +11,7 @@ import WcOutlinedIcon from '@mui/icons-material/WcOutlined'
 const cx = classNames.bind(styles)
 
 type MatchItemProps = {
-  item: any
+  item: MatchInfo
 }
 
 const MatchItem = ({ item }: MatchItemProps) => {
