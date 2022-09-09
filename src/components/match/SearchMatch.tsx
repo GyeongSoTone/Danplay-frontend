@@ -9,7 +9,7 @@ import 'react-datepicker/dist/react-datepicker.css'
 const cx = classNames.bind(styles)
 
 const DateBox = ({ name }) => {
-  const [date, setDate] = useState()
+  const [date, setDate] = useState<string>()
 
   const handleChange = (date) => {
     setDate(dayjs(date).format('YYYY-MM-DD'))

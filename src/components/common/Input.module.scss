@@ -1,19 +1,19 @@
 @import './pallete';
 
 .input {
-    width: 100%;
-    background-color: $BACKGROUND_GRAY;
-    color: $BLACK;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    padding: 15px 20px;
-    font-size: 16px;
-    color: $BLACK;
-    margin-top: 12px;
-    box-sizing: border-box;
+  width: 100%;
+  background-color: $BACKGROUND_GRAY;
+  color: $BLACK;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  color: $BLACK;
+  margin-top: 12px;
+  box-sizing: border-box;
 
-    &:focus {
-        outline: 1px solid $POINT_BLUE;
-    }
+  &:focus {
+    outline: 1px solid $POINT_BLUE;
+  }
 }
