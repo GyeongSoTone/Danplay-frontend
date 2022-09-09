@@ -9,7 +9,11 @@ import WcOutlinedIcon from '@mui/icons-material/WcOutlined'
 
 const cx = classNames.bind(styles)
 
-const MatchItem = ({ item }) => {
+type MatchItemProps = {
+  item: any
+}
+
+const MatchItem = ({ item }: MatchItemProps) => {
   const { maxNumberOfParticipants, place, startTime, gender, participants } =
     item
   const numberOfPlayer = maxNumberOfParticipants / 2

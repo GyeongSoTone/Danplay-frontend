@@ -8,17 +8,21 @@ import 'react-datepicker/dist/react-datepicker.css'
 
 const cx = classNames.bind(styles)
 
-const DateBox = ({ name }) => {
+type DateBoxProps = {
+  name: any
+}
+
+const DateBox = ({ name }: DateBoxProps) => {
   const [date, setDate] = useState<string>()
 
-  const handleChange = (date) => {
+  const handleChange = (date: any) => {
     setDate(dayjs(date).format('YYYY-MM-DD'))
   }
 
   return (
     <div className={cx('date-container')}>
       <DatePicker
-        onChange={(selectedDate) => handleChange(selectedDate)}
+        onChange={(selectedDate: any) => handleChange(selectedDate)}
         minDate={new Date()}
         customInput={
           <CalendarMonthOutlinedIcon
