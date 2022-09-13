@@ -6,7 +6,7 @@ export const MatchData = [
   */
   {
     id: 0,
-    sports: 'football',
+    sports: 'FUTSAL',
     maxNumberOfParticipants: 10,
     place: '풋살경기장',
     title: '같이 풋살해요~~',
@@ -78,7 +78,7 @@ export const MatchData = [
   },
   {
     id: 2,
-    sports: 'football',
+    sports: 'FUTSAL',
     maxNumberOfParticipants: 10,
     place: '풋살경기장',
     title: '같이 풋살해요~~',
@@ -114,7 +114,7 @@ export const MatchData = [
   },
   {
     id: 3,
-    sports: 'football',
+    sports: 'FUTSAL',
     maxNumberOfParticipants: 10,
     place: '풋살경기장',
     title: '같이 풋살해요~~',
@@ -150,7 +150,7 @@ export const MatchData = [
   },
   {
     id: 4,
-    sports: 'football',
+    sports: 'FUTSAL',
     maxNumberOfParticipants: 10,
     place: '풋살경기장',
     title: '같이 풋살해요~~',
@@ -186,7 +186,7 @@ export const MatchData = [
   },
   {
     id: 1,
-    sports: 'football',
+    sports: 'FUTSAL',
     maxNumberOfParticipants: 10,
     place: '풋살경기장',
     title: '같이 풋살해요~~',
@@ -228,7 +228,7 @@ export const MatchData = [
   */
   {
     id: 5,
-    sports: 'soccer',
+    sports: 'SOCCER',
     maxNumberOfParticipants: 22,
     place: '축구경기장',
     title: '같이 축구해요~~',
@@ -300,7 +300,7 @@ export const MatchData = [
   },
   {
     id: 6,
-    sports: 'soccer',
+    sports: 'SOCCER',
     maxNumberOfParticipants: 22,
     place: '축구경기장',
     title: '같이 축구해요~~',
@@ -336,7 +336,7 @@ export const MatchData = [
   },
   {
     id: 7,
-    sports: 'soccer',
+    sports: 'SOCCER',
     maxNumberOfParticipants: 22,
     place: '축구경기장',
     title: '같이 축구해요~~',
@@ -372,7 +372,7 @@ export const MatchData = [
   },
   {
     id: 8,
-    sports: 'soccer',
+    sports: 'SOCCER',
     maxNumberOfParticipants: 22,
     place: '축구경기장',
     title: '같이 축구해요~~',
@@ -408,7 +408,7 @@ export const MatchData = [
   },
   {
     id: 9,
-    sports: 'soccer',
+    sports: 'SOCCER',
     maxNumberOfParticipants: 22,
     place: '축구경기장',
     title: '같이 축구해요~~',
@@ -450,7 +450,7 @@ export const MatchData = [
   */
   {
     id: 11,
-    sports: 'basketball',
+    sports: 'BASKETBALL',
     maxNumberOfParticipants: 10,
     place: '농구경기장',
     title: '같이 농구해요~~',
@@ -522,7 +522,7 @@ export const MatchData = [
   },
   {
     id: 12,
-    sports: 'basketball',
+    sports: 'BASKETBALL',
     maxNumberOfParticipants: 10,
     place: '농구경기장',
     title: '같이 농구해요~~',
@@ -558,7 +558,7 @@ export const MatchData = [
   },
   {
     id: 13,
-    sports: 'basketball',
+    sports: 'BASKETBALL',
     maxNumberOfParticipants: 10,
     place: '농구경기장',
     title: '같이 농구해요~~',
@@ -594,7 +594,7 @@ export const MatchData = [
   },
   {
     id: 14,
-    sports: 'basketball',
+    sports: 'BASKETBALL',
     maxNumberOfParticipants: 10,
     place: '농구경기장',
     title: '같이 농구해요~~',
@@ -630,7 +630,7 @@ export const MatchData = [
   },
   {
     id: 15,
-    sports: 'basketball',
+    sports: 'BASKETBALL',
     maxNumberOfParticipants: 10,
     place: '농구경기장',
     title: '같이 농구해요~~',
@@ -672,7 +672,7 @@ export const MatchData = [
   */
   {
     id: 16,
-    sports: 'tennis',
+    sports: 'TENNIS',
     maxNumberOfParticipants: 4,
     place: '테니스경기장',
     title: '같이 테니스해요~~',
@@ -744,7 +744,7 @@ export const MatchData = [
   },
   {
     id: 17,
-    sports: 'tennis',
+    sports: 'TENNIS',
     maxNumberOfParticipants: 4,
     place: '테니스경기장',
     title: '같이 테니스해요~~',
@@ -780,7 +780,7 @@ export const MatchData = [
   },
   {
     id: 18,
-    sports: 'tennis',
+    sports: 'TENNIS',
     maxNumberOfParticipants: 4,
     place: '테니스경기장',
     title: '같이 테니스해요~~',
@@ -816,7 +816,7 @@ export const MatchData = [
   },
   {
     id: 19,
-    sports: 'tennis',
+    sports: 'TENNIS',
     maxNumberOfParticipants: 4,
     place: '테니스경기장',
     title: '같이 테니스해요~~',
@@ -852,7 +852,7 @@ export const MatchData = [
   },
   {
     id: 20,
-    sports: 'tennis',
+    sports: 'TENNIS',
     maxNumberOfParticipants: 4,
     place: '테니스경기장',
     title: '같이 테니스해요~~',
