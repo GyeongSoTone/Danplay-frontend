@@ -1,15 +1,15 @@
 import React from 'react'
 import styles from './Login.module.scss'
 import classNames from 'classnames/bind'
-import Input from '../components/login/Input'
-import LoginMessage from '../components/login/LoginMessage'
+import Input from '../components/account/Input'
+import HeaderMessage from '../components/account/HeaderMessage'
 
 const Login = () => {
   const cx = classNames.bind(styles)
 
   return (
     <div className={cx('container')}>
-      <LoginMessage />
+      <HeaderMessage />
       <form className={cx('login-form')}>
         <div>
           <Input placeholder={'단국대학교 이메일'} type="text" />

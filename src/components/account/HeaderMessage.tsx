@@ -1,8 +1,8 @@
 import React from 'react'
-import styles from './LoginMessage.module.scss'
+import styles from './HeaderMessage.module.scss'
 import classNames from 'classnames/bind'
 
-const LoginMessage = () => {
+const HeaderMessage = () => {
   const cx = classNames.bind(styles)
 
   return (
@@ -14,4 +14,4 @@ const LoginMessage = () => {
   )
 }
 
-export default LoginMessage
+export default HeaderMessage
